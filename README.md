@@ -5,19 +5,19 @@ Team Members:
 * Prathamesh Pandit - pppandi2
 * Sreemoyee ray - sray9
 
-### System requirements
+### System requirements.
 * The project has been implemented on windows environment.
 * Maven needs to be installed to run the project. Refer the link [Maven_Install](https://chocolatey.org/packages/maven) for instructions.
 * We used Java JDK Version 12.0.2. The project should run on other versions as well.
 * The code was developed and tested using Visual Studio Code. Install Visual studio code, Java and Maven plugins.
 * The database was setup on oracle11G on remote.eos.ncsu.edu.
 
-### Database setup
+### Database setup.
 * Run the sql commands in the file "DBMSWolf_UPS/ups/wolf-ups/sql/database_setup.sql" to set up all the tables and constraints.
 * Insert sample data using the sql commands in the file "DBMSWolf_UPS/ups/wolf-ups/sql/sampleData.sql".
 * We have set up the db with the credentials of "sray9". The configuration details can be found in DBMSWolf_UPS/ups/src/main/java/WolfUPS/connection/ConnectionVariables.java. Any changes in credentials can be done in this file.
 
-### Instructions to run the code
+### Instructions to run the code.
 * Open the project folder "DBMSWolf_UPS/ups/wolf-ups" in visual studio code.
 * On the explorer tab, select src/main/java/WolfUPS/UserInterface/**App.java**
 * Click on the run button on the top right corner of the screen.
